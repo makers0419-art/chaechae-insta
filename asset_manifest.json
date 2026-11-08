@@ -1,0 +1,194 @@
+{
+  "version": "0.3",
+  "date": "2026-10-28",
+  "drive_master_contents_verified": false,
+  "assets": [
+    {
+      "id": "M00",
+      "label": "기본 마스터",
+      "path": "assets/M00.png",
+      "original_filename": "chaechae_master(1).png",
+      "sha256": "ba54f18adb4c2983064af3ad93615ad194bcc168cceaa229caaa372a320ab6d2",
+      "dimensions": [
+        894,
+        879
+      ],
+      "mode": "RGBA",
+      "status": "selected_master",
+      "user_style_approved": null,
+      "notes": "사용자 직접 선택한 주 화풍·외형 기준",
+      "library_file_id": "libfile_872903d9147881918bd537e43466925e",
+      "user_selected": true
+    },
+    {
+      "id": "A01",
+      "label": "정색",
+      "path": "assets/A01.png",
+      "original_filename": "정색 채채.png",
+      "sha256": "7dc995495a721c4ba429e36c9edc1a2150a0de11c0bec71396d56f55a9b2fc9b",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "status": "user_selected",
+      "user_style_approved": null,
+      "notes": "선택본·표정 참고",
+      "library_file_id": "libfile_2078200158f081919a83b6c7bb370410",
+      "user_selected": true
+    },
+    {
+      "id": "A02",
+      "label": "서운함·시무룩",
+      "path": "assets/A02.png",
+      "original_filename": "[Instatoon_Asset]_Chaechae_Expression_Aggrieved.png",
+      "sha256": "8e50a548a3bc60cecdf484d2f27af659c4187d9f4326317f15d8759cbd86a58b",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "status": "user_selected",
+      "user_style_approved": null,
+      "notes": "선택본·슬픈 표정과 별도 파일",
+      "library_file_id": "libfile_bba98958a16081919303add44be3950e",
+      "user_selected": true
+    },
+    {
+      "id": "A03",
+      "label": "슬픈 표정",
+      "path": "assets/A03.png",
+      "original_filename": "슬픈 표정의 복슬복슬 포메라니안(2).png",
+      "sha256": "7d25e9ee0155bd8c78bb6e03042fd27ff3e6cb716b1b8bf77787af5201b00ff0",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "status": "user_selected",
+      "user_style_approved": null,
+      "notes": "선택본·A02와 별개",
+      "library_file_id": "libfile_618169e7d9f48191b4e91927a3aa0b24",
+      "user_selected": true
+    },
+    {
+      "id": "A04",
+      "label": "멍함·엎드림",
+      "path": "assets/A04.png",
+      "original_filename": "멍한 표정의 엎드린 채채 강아지.png",
+      "sha256": "400d65d39202b62db3cef3a27206a799196e8a1b92bdf3f09e8f3c113ef50b79",
+      "dimensions": [
+        1225,
+        1284
+      ],
+      "mode": "RGBA",
+      "status": "user_selected",
+      "user_style_approved": null,
+      "notes": "선택본·엎드린 자세",
+      "library_file_id": "libfile_8e071c68e4ac819189370e15f903646a",
+      "user_selected": true
+    },
+    {
+      "id": "A05",
+      "label": "냠냠",
+      "path": "assets/A05.png",
+      "original_filename": "껌 막대 씹는 포메라니안 얌얌(1).png",
+      "sha256": "1a1776f331fae5e161441fbecbea09d4f26afa50260991826f74de49a18ef6ed",
+      "dimensions": [
+        1416,
+        1111
+      ],
+      "mode": "RGBA",
+      "status": "user_selected",
+      "user_style_approved": null,
+      "notes": "사용자 선택 원본·후속 생성본으로 대체 금지",
+      "library_file_id": "libfile_6c9940e5804881918211a27d5ea4d33f",
+      "user_selected": true
+    },
+    {
+      "id": "A06",
+      "label": "쿨쿨·반정면 혀 빼꼼",
+      "path": "assets/A06.png",
+      "original_filename": "쿨쿨 잠든 포메라니안(1).png",
+      "sha256": "4870bd8235aa72f87d4427a964bcd36440f49906017f1cfa71c9291bea9def04",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "status": "user_selected",
+      "user_style_approved": null,
+      "notes": "선택본·두 귀와 작은 혀",
+      "library_file_id": "libfile_3c6fa6199b848191b6eadaa017f9a1b6",
+      "user_selected": true
+    },
+    {
+      "id": "A07",
+      "label": "쿨쿨·옆으로 누움",
+      "path": "assets/A07.png",
+      "original_filename": "크림빛 동물의 부드러운 발과 다리(1).png",
+      "sha256": "22402c269d205bb30f956e93cf5dd61841da940c8afe90ca95623313ecf04237",
+      "dimensions": [
+        1736,
+        906
+      ],
+      "mode": "RGBA",
+      "status": "user_approved_pose_master",
+      "user_style_approved": true,
+      "notes": "사용자가 마스터로 지정한 최신 보정본. 재보정 필요 상태 해제.",
+      "library_file_id": "libfile_019c8b02009c81918275a1411116961f",
+      "user_selected": true,
+      "supersedes": {
+        "original_filename": "옆으로 널부러져 잠든 채채.png",
+        "sha256": "54ba2e1b1bb93a7966258844aca40e8098093a506561047b3b97fb390a6bcadc",
+        "library_file_id": "libfile_01ab2003d8748191adf527b555b43360"
+      }
+    },
+    {
+      "id": "A08",
+      "label": "옆모습·서기",
+      "path": "assets/A08.png",
+      "original_filename": "연한 크림빛 다리와 발(1).png",
+      "sha256": "d0bf92c5281bc7ce9a79ef92cac07541e35894cdc1de817af576eb5062e8f536",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "status": "user_approved_pose_master",
+      "user_style_approved": true,
+      "notes": "사용자가 마스터로 지정한 최신 보정본. 재보정 필요 상태 해제.",
+      "library_file_id": "libfile_6de4877b691881918706788539f77f36",
+      "user_selected": true,
+      "supersedes": {
+        "original_filename": "옆으로 서있는 채채의 옆모습.png",
+        "sha256": "a3024589f1acb8076a3864f041468d28d4fdf062170145620a3814fb11650db0",
+        "library_file_id": "libfile_37a00203cc6c819182d916e89e4b5f36"
+      }
+    },
+    {
+      "id": "A09",
+      "label": "옆모습·앉기",
+      "path": "assets/A09.png",
+      "original_filename": "흰 종이 위 크림색 동물(1).png",
+      "sha256": "3f7ae086787efa10e9d53ad8bce217d48ef37c248d47b1570c185bc135bb15a6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "status": "user_approved_pose_master",
+      "user_style_approved": true,
+      "notes": "사용자가 마스터로 지정한 최신 보정본. 재보정 필요 상태 해제.",
+      "library_file_id": "libfile_c691ce32dfa4819180f826cc931cdaeb",
+      "user_selected": true,
+      "supersedes": {
+        "original_filename": "앉아 있는 크림색 포메라니안 옆모습(1).png",
+        "sha256": "d9b3777d6c4e4ba752c11b8d3a89354cf041ca36dfbe3716a62ffa3257069dfb",
+        "library_file_id": "libfile_9d034194771481919cca0b94391ade44"
+      }
+    }
+  ],
+  "selection_source": "user_selected_10_with_3_replacements_2026-10-28",
+  "selected_total_including_master": 10
+}
