@@ -1,12 +1,12 @@
 {
-  "version": "0.3",
-  "date": "2026-10-28",
+  "version": "0.4",
+  "date": "2026-11-23",
   "drive_master_contents_verified": false,
   "assets": [
     {
       "id": "M00",
-      "label": "기본 마스터",
-      "path": "assets/M00.png",
+      "label": "서기 · 정면 · 미소",
+      "path": "assets/characters/chaechae/master/chaechae_stand_smile_front_v001.png",
       "original_filename": "chaechae_master(1).png",
       "sha256": "ba54f18adb4c2983064af3ad93615ad194bcc168cceaa229caaa372a320ab6d2",
       "dimensions": [
@@ -16,14 +16,32 @@
       "mode": "RGBA",
       "status": "selected_master",
       "user_style_approved": null,
-      "notes": "사용자 직접 선택한 주 화풍·외형 기준",
+      "notes": "서기·정면·미소 이미지이며 기본 외형·화풍 마스터 역할을 겸함.",
       "library_file_id": "libfile_872903d9147881918bd537e43466925e",
-      "user_selected": true
+      "user_selected": true,
+      "classification": "기본 외형·화풍 기준",
+      "master_path": "assets/characters/chaechae/master/chaechae_stand_smile_front_v001.png",
+      "render_path": "assets/characters/chaechae/render/chaechae_stand_smile_front_v001.png",
+      "render_sha256": "b972ef6df3cc0c5cdd5d8cf6f7975ed6a3f8e2f6245d752482f2d0e9c33faeb7",
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "render_mode": "RGBA",
+      "render_canvas": {
+        "size": [
+          1024,
+          1024
+        ],
+        "baseline_y": 912,
+        "max_character_extent": 820
+      },
+      "render_notes": "투명 배경, 이미지 안 글자 제거. 원본 픽셀은 master에 보존."
     },
     {
       "id": "A01",
-      "label": "정색",
-      "path": "assets/A01.png",
+      "label": "서기 · 정면 · 정색",
+      "path": "assets/characters/chaechae/master/chaechae_stand_neutral_front_v001.png",
       "original_filename": "정색 채채.png",
       "sha256": "7dc995495a721c4ba429e36c9edc1a2150a0de11c0bec71396d56f55a9b2fc9b",
       "dimensions": [
@@ -35,29 +53,30 @@
       "user_style_approved": null,
       "notes": "선택본·표정 참고",
       "library_file_id": "libfile_2078200158f081919a83b6c7bb370410",
-      "user_selected": true
-    },
-    {
-      "id": "A02",
-      "label": "서운함·시무룩",
-      "path": "assets/A02.png",
-      "original_filename": "[Instatoon_Asset]_Chaechae_Expression_Aggrieved.png",
-      "sha256": "8e50a548a3bc60cecdf484d2f27af659c4187d9f4326317f15d8759cbd86a58b",
-      "dimensions": [
+      "user_selected": true,
+      "classification": "무표정",
+      "master_path": "assets/characters/chaechae/master/chaechae_stand_neutral_front_v001.png",
+      "render_path": "assets/characters/chaechae/render/chaechae_stand_neutral_front_v001.png",
+      "render_sha256": "9764b0da2a4332018414c9dc90c8a3bbc3115daecb878bb46932e8df6119ef15",
+      "render_dimensions": [
         1024,
         1024
       ],
-      "mode": "RGBA",
-      "status": "user_selected",
-      "user_style_approved": null,
-      "notes": "선택본·슬픈 표정과 별도 파일",
-      "library_file_id": "libfile_bba98958a16081919303add44be3950e",
-      "user_selected": true
+      "render_mode": "RGBA",
+      "render_canvas": {
+        "size": [
+          1024,
+          1024
+        ],
+        "baseline_y": 912,
+        "max_character_extent": 820
+      },
+      "render_notes": "투명 배경, 이미지 안 글자 제거. 원본 픽셀은 master에 보존."
     },
     {
       "id": "A03",
-      "label": "슬픈 표정",
-      "path": "assets/A03.png",
+      "label": "서기 · 정면 · 시무룩",
+      "path": "assets/characters/chaechae/master/chaechae_stand_dejected_front_v001.png",
       "original_filename": "슬픈 표정의 복슬복슬 포메라니안(2).png",
       "sha256": "7d25e9ee0155bd8c78bb6e03042fd27ff3e6cb716b1b8bf77787af5201b00ff0",
       "dimensions": [
@@ -69,12 +88,30 @@
       "user_style_approved": null,
       "notes": "선택본·A02와 별개",
       "library_file_id": "libfile_618169e7d9f48191b4e91927a3aa0b24",
-      "user_selected": true
+      "user_selected": true,
+      "classification": "시무룩",
+      "master_path": "assets/characters/chaechae/master/chaechae_stand_dejected_front_v001.png",
+      "render_path": "assets/characters/chaechae/render/chaechae_stand_dejected_front_v001.png",
+      "render_sha256": "25f295f7b224a316f1f6e0b957623919e65b2694bb55a2456a4a577a51b382b6",
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "render_mode": "RGBA",
+      "render_canvas": {
+        "size": [
+          1024,
+          1024
+        ],
+        "baseline_y": 912,
+        "max_character_extent": 820
+      },
+      "render_notes": "투명 배경, 이미지 안 글자 제거. 원본 픽셀은 master에 보존."
     },
     {
       "id": "A04",
-      "label": "멍함·엎드림",
-      "path": "assets/A04.png",
+      "label": "엎드림 · 반정면 · 멍함",
+      "path": "assets/characters/chaechae/master/chaechae_prone_blank_threequarter_v001.png",
       "original_filename": "멍한 표정의 엎드린 채채 강아지.png",
       "sha256": "400d65d39202b62db3cef3a27206a799196e8a1b92bdf3f09e8f3c113ef50b79",
       "dimensions": [
@@ -86,12 +123,30 @@
       "user_style_approved": null,
       "notes": "선택본·엎드린 자세",
       "library_file_id": "libfile_8e071c68e4ac819189370e15f903646a",
-      "user_selected": true
+      "user_selected": true,
+      "classification": "멍함",
+      "master_path": "assets/characters/chaechae/master/chaechae_prone_blank_threequarter_v001.png",
+      "render_path": "assets/characters/chaechae/render/chaechae_prone_blank_threequarter_v001.png",
+      "render_sha256": "dcbb7f198b49819031feb203a312c44a836d6020aa964846984bf6caeda9f3a9",
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "render_mode": "RGBA",
+      "render_canvas": {
+        "size": [
+          1024,
+          1024
+        ],
+        "baseline_y": 912,
+        "max_character_extent": 820
+      },
+      "render_notes": "투명 배경, 이미지 안 글자 제거. 원본 픽셀은 master에 보존."
     },
     {
       "id": "A05",
-      "label": "냠냠",
-      "path": "assets/A05.png",
+      "label": "엎드림 · 반정면 · 개껌 씹기",
+      "path": "assets/characters/chaechae/master/chaechae_prone_chewing_threequarter_v001.png",
       "original_filename": "껌 막대 씹는 포메라니안 얌얌(1).png",
       "sha256": "1a1776f331fae5e161441fbecbea09d4f26afa50260991826f74de49a18ef6ed",
       "dimensions": [
@@ -101,14 +156,32 @@
       "mode": "RGBA",
       "status": "user_selected",
       "user_style_approved": null,
-      "notes": "사용자 선택 원본·후속 생성본으로 대체 금지",
+      "notes": "개껌 씹기 장면. 개껌은 그림에 포함된 소품.",
       "library_file_id": "libfile_6c9940e5804881918211a27d5ea4d33f",
-      "user_selected": true
+      "user_selected": true,
+      "classification": "개껌 씹기",
+      "master_path": "assets/characters/chaechae/master/chaechae_prone_chewing_threequarter_v001.png",
+      "render_path": "assets/characters/chaechae/render/chaechae_prone_chewing_threequarter_v001.png",
+      "render_sha256": "0b979b44d22c1e3ee2513205292dfdf59c2da7c41a05aa4b0cb16f4bca41f44d",
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "render_mode": "RGBA",
+      "render_canvas": {
+        "size": [
+          1024,
+          1024
+        ],
+        "baseline_y": 912,
+        "max_character_extent": 820
+      },
+      "render_notes": "투명 배경, 이미지 안 글자 제거. 원본 픽셀은 master에 보존."
     },
     {
       "id": "A06",
-      "label": "쿨쿨·반정면 혀 빼꼼",
-      "path": "assets/A06.png",
+      "label": "엎드림 · 정면에 가까운 반정면 · 잠듦",
+      "path": "assets/characters/chaechae/master/chaechae_prone_sleeping_threequarter_v001.png",
       "original_filename": "쿨쿨 잠든 포메라니안(1).png",
       "sha256": "4870bd8235aa72f87d4427a964bcd36440f49906017f1cfa71c9291bea9def04",
       "dimensions": [
@@ -118,14 +191,32 @@
       "mode": "RGBA",
       "status": "user_selected",
       "user_style_approved": null,
-      "notes": "선택본·두 귀와 작은 혀",
+      "notes": "배를 바닥에 댄 엎드림 수면 자세. A07과 구분.",
       "library_file_id": "libfile_3c6fa6199b848191b6eadaa017f9a1b6",
-      "user_selected": true
+      "user_selected": true,
+      "classification": "잠듦",
+      "master_path": "assets/characters/chaechae/master/chaechae_prone_sleeping_threequarter_v001.png",
+      "render_path": "assets/characters/chaechae/render/chaechae_prone_sleeping_threequarter_v001.png",
+      "render_sha256": "5eee63f224ca251af89f58821e5b8f98309703075ac5fa9b34b787c46d53fc5b",
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "render_mode": "RGBA",
+      "render_canvas": {
+        "size": [
+          1024,
+          1024
+        ],
+        "baseline_y": 912,
+        "max_character_extent": 820
+      },
+      "render_notes": "투명 배경, 이미지 안 글자 제거. 원본 픽셀은 master에 보존."
     },
     {
       "id": "A07",
-      "label": "쿨쿨·옆으로 누움",
-      "path": "assets/A07.png",
+      "label": "옆으로 누움 · 측면 · 잠듦",
+      "path": "assets/characters/chaechae/master/chaechae_lie_sleeping_side_v001.png",
       "original_filename": "크림빛 동물의 부드러운 발과 다리(1).png",
       "sha256": "22402c269d205bb30f956e93cf5dd61841da940c8afe90ca95623313ecf04237",
       "dimensions": [
@@ -135,19 +226,37 @@
       "mode": "RGBA",
       "status": "user_approved_pose_master",
       "user_style_approved": true,
-      "notes": "사용자가 마스터로 지정한 최신 보정본. 재보정 필요 상태 해제.",
+      "notes": "몸을 길게 옆으로 눕힌 수면 자세. A06과 구분.",
       "library_file_id": "libfile_019c8b02009c81918275a1411116961f",
       "user_selected": true,
       "supersedes": {
         "original_filename": "옆으로 널부러져 잠든 채채.png",
         "sha256": "54ba2e1b1bb93a7966258844aca40e8098093a506561047b3b97fb390a6bcadc",
         "library_file_id": "libfile_01ab2003d8748191adf527b555b43360"
-      }
+      },
+      "classification": "잠듦",
+      "master_path": "assets/characters/chaechae/master/chaechae_lie_sleeping_side_v001.png",
+      "render_path": "assets/characters/chaechae/render/chaechae_lie_sleeping_side_v001.png",
+      "render_sha256": "c006cda3da4be2e61036ae763c31fc0f7c93d354abca2e9b80b63a5e50ce2b3b",
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "render_mode": "RGBA",
+      "render_canvas": {
+        "size": [
+          1024,
+          1024
+        ],
+        "baseline_y": 912,
+        "max_character_extent": 820
+      },
+      "render_notes": "투명 배경, 이미지 안 글자 제거. 원본 픽셀은 master에 보존."
     },
     {
       "id": "A08",
-      "label": "옆모습·서기",
-      "path": "assets/A08.png",
+      "label": "서기 · 왼쪽 측면 · 정색",
+      "path": "assets/characters/chaechae/master/chaechae_stand_neutral_left_v001.png",
       "original_filename": "연한 크림빛 다리와 발(1).png",
       "sha256": "d0bf92c5281bc7ce9a79ef92cac07541e35894cdc1de817af576eb5062e8f536",
       "dimensions": [
@@ -157,19 +266,37 @@
       "mode": "RGBA",
       "status": "user_approved_pose_master",
       "user_style_approved": true,
-      "notes": "사용자가 마스터로 지정한 최신 보정본. 재보정 필요 상태 해제.",
+      "notes": "옆모습 문구는 render에서 제거하고 원본 master는 보존.",
       "library_file_id": "libfile_6de4877b691881918706788539f77f36",
       "user_selected": true,
       "supersedes": {
         "original_filename": "옆으로 서있는 채채의 옆모습.png",
         "sha256": "a3024589f1acb8076a3864f041468d28d4fdf062170145620a3814fb11650db0",
         "library_file_id": "libfile_37a00203cc6c819182d916e89e4b5f36"
-      }
+      },
+      "classification": "정색",
+      "master_path": "assets/characters/chaechae/master/chaechae_stand_neutral_left_v001.png",
+      "render_path": "assets/characters/chaechae/render/chaechae_stand_neutral_left_v001.png",
+      "render_sha256": "dd243f25bec2c35b5dd4abb355b41e1495a96bb9a38aab5f112afd7c3249437c",
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "render_mode": "RGBA",
+      "render_canvas": {
+        "size": [
+          1024,
+          1024
+        ],
+        "baseline_y": 912,
+        "max_character_extent": 820
+      },
+      "render_notes": "투명 배경, 이미지 안 글자 제거. 원본 픽셀은 master에 보존."
     },
     {
       "id": "A09",
-      "label": "옆모습·앉기",
-      "path": "assets/A09.png",
+      "label": "앉기 · 왼쪽 측면 · 정색",
+      "path": "assets/characters/chaechae/master/chaechae_sit_neutral_left_v001.png",
       "original_filename": "흰 종이 위 크림색 동물(1).png",
       "sha256": "3f7ae086787efa10e9d53ad8bce217d48ef37c248d47b1570c185bc135bb15a6",
       "dimensions": [
@@ -179,16 +306,68 @@
       "mode": "RGBA",
       "status": "user_approved_pose_master",
       "user_style_approved": true,
-      "notes": "사용자가 마스터로 지정한 최신 보정본. 재보정 필요 상태 해제.",
+      "notes": "옆모습 문구는 render에서 제거하고 원본 master는 보존.",
       "library_file_id": "libfile_c691ce32dfa4819180f826cc931cdaeb",
       "user_selected": true,
       "supersedes": {
         "original_filename": "앉아 있는 크림색 포메라니안 옆모습(1).png",
         "sha256": "d9b3777d6c4e4ba752c11b8d3a89354cf041ca36dfbe3716a62ffa3257069dfb",
         "library_file_id": "libfile_9d034194771481919cca0b94391ade44"
-      }
+      },
+      "classification": "정색",
+      "master_path": "assets/characters/chaechae/master/chaechae_sit_neutral_left_v001.png",
+      "render_path": "assets/characters/chaechae/render/chaechae_sit_neutral_left_v001.png",
+      "render_sha256": "07024f7c914eaa2a1cfeeddbd3e87d24228d75eca324c6124f218f6b707f8a3c",
+      "render_dimensions": [
+        1024,
+        1024
+      ],
+      "render_mode": "RGBA",
+      "render_canvas": {
+        "size": [
+          1024,
+          1024
+        ],
+        "baseline_y": 912,
+        "max_character_extent": 820
+      },
+      "render_notes": "투명 배경, 이미지 안 글자 제거. 원본 픽셀은 master에 보존."
     }
   ],
-  "selection_source": "user_selected_10_with_3_replacements_2026-10-28",
-  "selected_total_including_master": 10
+  "selection_source": "user_confirmed_taxonomy_update_2026-11-23",
+  "selected_total_including_master": 9,
+  "selected_asset_count_including_master": 9,
+  "active_pose_asset_count": 8,
+  "render_profile": {
+    "canvas": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "background": "transparent",
+    "baseline_y": 912,
+    "max_character_extent": 820
+  },
+  "excluded_assets": [
+    {
+      "id": "A02",
+      "label": "서운함·시무룩",
+      "path": "assets/characters/chaechae/archive/A02_excluded_v001.png",
+      "original_filename": "[Instatoon_Asset]_Chaechae_Expression_Aggrieved.png",
+      "sha256": "8e50a548a3bc60cecdf484d2f27af659c4187d9f4326317f15d8759cbd86a58b",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "status": "excluded_preserved_archive",
+      "user_style_approved": null,
+      "notes": "archive에 원본 보존. 활성 에셋 집계와 render에서 제외.",
+      "library_file_id": "libfile_bba98958a16081919303add44be3950e",
+      "user_selected": false,
+      "master_path": "assets/characters/chaechae/archive/A02_excluded_v001.png",
+      "excluded": true,
+      "exclusion_reason": "활성 목록에서 제외. 원본 보존, A03 이후 ID 유지."
+    }
+  ]
 }

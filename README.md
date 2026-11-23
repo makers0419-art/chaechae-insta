@@ -1,30 +1,32 @@
-# 채채 인스타툰 마스터 에셋
+# 채채 인스타툰 에셋
 
-사용자가 선택한 원본 10개입니다. 원본의 색상·해상도·배경·글자를 변경하지 않고 보관합니다.
+원본 마스터와 PIL 합성용 렌더를 분리해 보관합니다. 파일 ID(A01, A03 등)는 유지하고 파일명은 자세·시점·표정을 설명합니다.
 
-M00은 기본 외형·화풍 마스터이며, A07·A08·A09는 사용자가 지정한 최신 보정 자세 마스터입니다.
+- 활성 에셋: M00과 A01, A03–A09, 총 9개
+- A02: 활성 목록에서 제외, 원본은 archive에 보존
+- neutral은 정색, dejected는 시무룩
+- M00은 서기·정면·미소 이미지이며 기본 외형·화풍 마스터 역할을 겸함
 
-| ID | 에셋 | 이미지 | 원본 파일명 |
+## 에셋 목록
+
+| ID | 분류 | master 원본 | 합성용 render |
 |---|---|---|---|
-| M00 | 기본 마스터 | [보기](assets/M00.png) | chaechae_master(1).png |
-| A01 | 정색 | [보기](assets/A01.png) | 정색 채채.png |
-| A02 | 서운함·시무룩 | [보기](assets/A02.png) | [Instatoon_Asset]_Chaechae_Expression_Aggrieved.png |
-| A03 | 슬픈 표정 | [보기](assets/A03.png) | 슬픈 표정의 복슬복슬 포메라니안(2).png |
-| A04 | 멍함·엎드림 | [보기](assets/A04.png) | 멍한 표정의 엎드린 채채 강아지.png |
-| A05 | 냠냠 | [보기](assets/A05.png) | 껌 막대 씹는 포메라니안 얌얌(1).png |
-| A06 | 쿨쿨·반정면 혀 빼꼼 | [보기](assets/A06.png) | 쿨쿨 잠든 포메라니안(1).png |
-| A07 | 쿨쿨·옆으로 누움 | [보기](assets/A07.png) | 크림빛 동물의 부드러운 발과 다리(1).png |
-| A08 | 옆모습·서기 | [보기](assets/A08.png) | 연한 크림빛 다리와 발(1).png |
-| A09 | 옆모습·앉기 | [보기](assets/A09.png) | 흰 종이 위 크림색 동물(1).png |
+| M00 | 서기 · 정면 · 미소 | [master](assets/characters/chaechae/master/chaechae_stand_smile_front_v001.png) | [render](assets/characters/chaechae/render/chaechae_stand_smile_front_v001.png) |
+| A01 | 서기 · 정면 · 정색 | [master](assets/characters/chaechae/master/chaechae_stand_neutral_front_v001.png) | [render](assets/characters/chaechae/render/chaechae_stand_neutral_front_v001.png) |
+| A03 | 서기 · 정면 · 시무룩 | [master](assets/characters/chaechae/master/chaechae_stand_dejected_front_v001.png) | [render](assets/characters/chaechae/render/chaechae_stand_dejected_front_v001.png) |
+| A04 | 엎드림 · 반정면 · 멍함 | [master](assets/characters/chaechae/master/chaechae_prone_blank_threequarter_v001.png) | [render](assets/characters/chaechae/render/chaechae_prone_blank_threequarter_v001.png) |
+| A05 | 엎드림 · 반정면 · 개껌 씹기 | [master](assets/characters/chaechae/master/chaechae_prone_chewing_threequarter_v001.png) | [render](assets/characters/chaechae/render/chaechae_prone_chewing_threequarter_v001.png) |
+| A06 | 엎드림 · 정면에 가까운 반정면 · 잠듦 | [master](assets/characters/chaechae/master/chaechae_prone_sleeping_threequarter_v001.png) | [render](assets/characters/chaechae/render/chaechae_prone_sleeping_threequarter_v001.png) |
+| A07 | 옆으로 누움 · 측면 · 잠듦 | [master](assets/characters/chaechae/master/chaechae_lie_sleeping_side_v001.png) | [render](assets/characters/chaechae/render/chaechae_lie_sleeping_side_v001.png) |
+| A08 | 서기 · 왼쪽 측면 · 정색 | [master](assets/characters/chaechae/master/chaechae_stand_neutral_left_v001.png) | [render](assets/characters/chaechae/render/chaechae_stand_neutral_left_v001.png) |
+| A09 | 앉기 · 왼쪽 측면 · 정색 | [master](assets/characters/chaechae/master/chaechae_sit_neutral_left_v001.png) | [render](assets/characters/chaechae/render/chaechae_sit_neutral_left_v001.png) |
 
-## 기본 마스터
+## 경로와 기준
 
-![기본 마스터](assets/M00.png)
+- 원본 master: assets/characters/chaechae/master/
+- 합성용 render: assets/characters/chaechae/render/
+- 제외 원본: assets/characters/chaechae/archive/A02_excluded_v001.png
+- ID·경로 연결의 기준 목록: asset_manifest.json
+- 최신 분류와 제작 기준: docs/asset-catalog-v0.4.md
 
-## 제작 기준
-
-- [제작·검수 기준서 v0.3](docs/production-guide-v0.3.md)
-- [원본 파일명·역할·SHA-256 목록](asset_manifest.json)
-- [에이전트 작업 기록 양식](job_record_template.json)
-
-이미 승인된 에셋은 재생성하지 않고 재사용합니다. 추가 수정은 별도 버전으로 저장합니다.
+렌더는 흰 배경과 그림 안 문구를 정리하고 1024×1024 RGBA 투명 캔버스에 배치했습니다. 캐릭터 최대 치수는 820px, 바닥 기준선은 y=912px입니다. A05의 개껌은 그림에 포함된 소품이라 보존했습니다.
